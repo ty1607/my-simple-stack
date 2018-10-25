@@ -14,7 +14,7 @@ public class ItemTest {
     public void setMonNum() {
         Item item = new Item(6);
 
-        item.setMonNum(4);
-        assertEquals(4, item.getMonNum());
+        item.setMonNum(5);
+        assertEquals(5, item.getMonNum());
     }
 }
