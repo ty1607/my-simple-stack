@@ -15,6 +15,9 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+        App ppa = new App();
+        String[] param = new String[2];
+        App.main(param);
+        assertTrue(true);
     }
 }
