@@ -37,11 +37,11 @@ public class SimpleStackTest {
     @Test
     public void peek() {
         SimpleStack stack = new SimpleStack();
-        Item item = new Item(5);
+        Item item = new Item(9);
 
         stack.push(item);
 
-        assertEquals(5,stack.peek().getMonNum());
+        assertEquals(9,stack.peek().getMonNum());
     }
 
     @Test
